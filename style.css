@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+  .container{
+    /* border:solid black 2px; */
+    padding-left:50px;
+    /* display: flex;
+   justify-content: center; */
+  }
+  .box1{
+
+    display: flex;
+    justify-content: center;
+    width:1000px;
+   padding-top: 20px;
+   /* border:solid rgb(202, 20, 20) 2px; */
+  }
+  .img1{
+    left:1px;
+    right:100px;
+    width:100px;
+    height: 25px;
+  }
+  a{
+  margin-left: 30px;
+text-decoration: none;
+color: black;
+  }
+  li{
+ 
+    display: inline;
+    list-style: none;
+  }
+  ul{
+    margin-left: 150px;
+  }
+.box2{
+    /* border:solid yellow 2px; */
+    background-color: black;
+    width:1000px;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+}
+.img2{
+    width:500px;
+    height: 500px;
+}
+.box3{
+    padding-top:100px;
+    /* border:solid pink 2px; */
+    background-color: rgb(215, 208, 208);
+    width:1000px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.box4{
+    padding-top:100px;
+    /* border:solid pink 2px; */
+    background-color: rgb(167, 164, 164);
+    width:1000px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.set{
+    width: 400px;
+    height: 300px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    /* padding: 10px; */
+}
+.img3{
+    width: 300px;
+  height: 300px;
+}
+.img4{
+    width: 300px;
+    height: 300px; 
+}
+h3{
+    margin-top:20px;
+}
+.imgset{
+    height: 235px;
+}
+.box5{
+    background-color: rgb(215, 208, 208);
+    padding-top:100px;
+    /* border:solid pink 2px; */
+    width:1000px;
+    display: flex;
+    justify-content: center;
+}
+i{
+    font-size: 30px;
+    margin-left:10px ;
+}
+.box6{
+    background-color: rgb(215, 208, 208);
+    /* border:solid pink 2px; */
+    width:1000px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(215, 208, 208);
+    /* border:solid pink 2px; */
+    width:1000px;
+    display: flex;
+    justify-content: center;
+}
+.box7{
+    background-color: rgb(215, 208, 208);
+    padding-top:60px;
+    /* border:solid pink 2px; */
+    width:1000px;
+    display: flex;
+    justify-content: center;
+
+
+}
+button{
+    background-color: rgb(222, 221, 221);
+    color: rgb(135, 213, 17);
+    height:50px;
+    border-color:  rgb(135, 213, 17);
+    font-weight: 700;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: greenyellow;
+    color: white;
+}
